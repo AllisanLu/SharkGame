@@ -2,9 +2,17 @@
 errors listed below, and try again.
 
 
-File "game/options.rpy", line 64: Line is indented, but the preceding define statement statement does not expect a block. Please check this line's indentation.
-    define config.main_menu_music = "main-menu-theme.ogg"
-    ^
+File "game/script.rpy", line 8: expected statement.
+    //cold water scenes
+                       ^
+
+File "game/script.rpy", line 105: expected statement.
+    //open ocean scenes
+                       ^
+
+File "game/script.rpy", line 110: expected statement.
+    //death scenes
+                  ^
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Fri Apr 02 18:49:41 2021
+Fri Apr 02 19:57:42 2021

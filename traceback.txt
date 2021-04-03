@@ -1,22 +1,22 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 31, in script
-    largeshark "You spot a seal in the waters ahead!"
-Exception: Sayer 'largeshark' is not defined.
+  File "game/script.rpy", line 63, in script
+    jump driftingboat
+ScriptError: could not find label 'driftingboat'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 31, in script
-    largeshark "You spot a seal in the waters ahead!"
-  File "C:\Users\alcp2\renpy-7.3.5-sdk\renpy\ast.py", line 678, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "C:\Users\alcp2\renpy-7.3.5-sdk\renpy\ast.py", line 576, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who.encode("utf-8"))
-Exception: Sayer 'largeshark' is not defined.
+  File "game/script.rpy", line 63, in script
+    jump driftingboat
+  File "C:\Users\alcp2\renpy-7.3.5-sdk\renpy\ast.py", line 1697, in execute
+    rv = renpy.game.script.lookup(target)
+  File "C:\Users\alcp2\renpy-7.3.5-sdk\renpy\script.py", line 898, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'driftingboat'.
 
 Windows-8-6.2.9200
 Ren'Py 7.3.5.606
-SharkGame 1.0
-Fri Apr 02 18:50:51 2021
+SharkGame 2.0
+Fri Apr 02 21:00:35 2021
