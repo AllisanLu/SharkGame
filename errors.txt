@@ -2,17 +2,17 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 8: expected statement.
-    //cold water scenes
-                       ^
+File "game/script.rpy", line 328: expected 'image_name_component' not found.
+    show
+        ^
 
-File "game/script.rpy", line 105: expected statement.
-    //open ocean scenes
-                       ^
+File "game/script.rpy", line 336: expected statement.
+    sharkHealth += 3
+                ^
 
-File "game/script.rpy", line 110: expected statement.
-    //death scenes
-                  ^
+File "game/script.rpy", line 342: expected statement.
+    sharkHealth += 3
+                ^
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Fri Apr 02 19:57:42 2021
+Thu Apr 15 13:48:31 2021

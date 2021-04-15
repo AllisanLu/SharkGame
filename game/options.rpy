@@ -12,7 +12,7 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
-define config.name = _("SharkGame")
+define config.name = _("Shark Quest")
 
 
 ## Determines if the title given above is shown on the main menu screen. Set
@@ -23,13 +23,15 @@ define gui.show_name = True
 
 ## The version of the game.
 
-define config.version = "2.0"
+define config.version = "2.1"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
 ## triple-quotes, and leave a blank line between paragraphs.
 
 define gui.about = _p("""A game about a simple shark trying to stay alive during climate change.
+Game created by: Allison, Alex, Anvitha
+Art help from: Chelsea
 """)
 
 
@@ -37,7 +39,7 @@ define gui.about = _p("""A game about a simple shark trying to stay alive during
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
-define build.name = "SharkGame"
+define build.name = "Shark Quest"
 
 
 ## Sounds and music ############################################################
