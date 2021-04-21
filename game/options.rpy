@@ -23,7 +23,7 @@ define gui.show_name = True
 
 ## The version of the game.
 
-define config.version = "2.1"
+define config.version = "2.2"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
@@ -31,7 +31,8 @@ define config.version = "2.1"
 
 define gui.about = _p("""A game about a simple shark trying to stay alive during climate change.
 Game created by: Allison, Alex, Anvitha
-Art help from: Chelsea
+Art help from: Chelsea  
+Music from Wynncraft
 """)
 
 
@@ -39,7 +40,7 @@ Art help from: Chelsea
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
-define build.name = "Shark Quest"
+define build.name = "SharkQuest"
 
 
 ## Sounds and music ############################################################
@@ -63,7 +64,7 @@ define config.has_voice = True
 ## the player is at the main menu. This file will continue playing into the
 ## game, until it is stopped or another file is played.
 
- #define config.main_menu_music = "main-menu-theme.ogg"
+define config.main_menu_music = "audio/mainmenu.mp3"
 
 
 ## Transitions #################################################################

@@ -2,17 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 328: expected 'image_name_component' not found.
-    show
-        ^
-
-File "game/script.rpy", line 336: expected statement.
-    sharkHealth += 3
-                ^
-
-File "game/script.rpy", line 342: expected statement.
-    sharkHealth += 3
-                ^
+File "game/options.rpy", line 66: Line is indented, but the preceding define statement statement does not expect a block. Please check this line's indentation.
+    define config.main_menu_music = "Salted - Wynn OST - 12 Wynncraft Trailer Theme.mp3"
+    ^
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Thu Apr 15 13:48:31 2021
+Thu Apr 15 17:11:13 2021
